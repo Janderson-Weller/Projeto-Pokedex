@@ -1,4 +1,5 @@
 @media (max-width: 700px) {
+    
     /* Redefine o tamanho da fonte para 12px */
     body {
         font-size: 12px;
@@ -6,11 +7,8 @@
 
     /* Refaz a estrutura da tag após o main para coluna */
     .card-main {
-        background-color: red;
         flex-direction: column; /* Coloca as divs em coluna */
-        /* box-sizing: border-box; */
-        /* padding: 40px 0; */
-        margin-top: 50px;
+        margin-top: 30px;
     }
 
     /* Redefine o tamanho da largura do card pokemon para 300px */
@@ -65,7 +63,6 @@
 
     /* Redefine a div ul que tem como nome list */
     .list {
-        background-color: rebeccapurple;
         margin-top: -20px;
         display: flex;
         gap: 8px;
