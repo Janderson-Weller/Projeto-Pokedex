@@ -3,21 +3,21 @@
 * {
     padding: 0;
     margin: 0;
-    box-sizing: border-box; /* Faz o padding ficar dentro do valor estipulado do objeto e não aumenta esse valor*/
+    box-sizing: border-box; /*Faz o padding ficar dentro do valor estipulado do objeto e não aumenta esse valor*/
     list-style: none;
 }
 
 main {
-    min-height: 100vh; /* Faz a tela ficar 100% ocupando a tela do usuário, nesse caso é a altura mínima*/
+    height: 100vh; /* Faz a tela ficar 100% ocupando a tela do usuário, nesse caso é a altura mínima*/
     display: flex; /* deixa o main mais flexível para alterar as posições, alinhando os itens ao lado*/
     align-items: center; /* Alinha os itens ao centro verticalmente*/
     justify-content: center; /* Alinha os itens ao centro horizontalmente*/
+    /* background-color: red; */
 }
 
 .card-main {
     display: flex;
     gap: 30px; /* Dá um espaço de 30px entre as 2 divs filhas (cards-pokemnos e heads-cards) */;
-    padding: 30px 0 ;
 }
 
 .card-pokemon {
@@ -32,7 +32,7 @@ main {
 
 .top-card {
     /* display: flex; */
-    padding: 30px 40px 0; 
+    padding: 10px 40px 0; 
 }
 
 .name, .card-number {
@@ -97,18 +97,12 @@ main {
     padding-top: 10px;
 }
 
-/* .bottom-title {
-    margin-bottom: 20px;
-    border-bottom: 1px solid #c3c4c5;
-} */
-
-
 .bottom-card {
     display: flex;
     justify-content: space-between;
     margin-top: -70px;
     /* gap: 50px; */
-    padding: 80px 30px 40px;
+    padding: 30px 30px ;
     background-color: #b37272;  
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
