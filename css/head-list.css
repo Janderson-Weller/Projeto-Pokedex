@@ -1,0 +1,35 @@
+/* Estilização das cabeças dos personagens */
+
+.heads-cards {
+    max-width: 200px; /* Tamanho máximo da div onde a lista de navegação está*/
+}
+
+.itemList { 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: aliceblue;
+    background-color: rgb(110, 116, 110);
+    margin-bottom: 10px;
+    min-height: 70px;
+    cursor: pointer;
+    /* min-width: 200px; */
+    padding: 0 5px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    transition: 0.2s ease-in-out;
+}
+
+.head-img {
+    width: 25%;
+    border-radius: 50%;
+}
+
+.list .itemList:hover {
+    transform: scale(1.1);
+    background-color: rgb(255, 0, 234);
+}
+
+.list .active {
+    background-color: rgb(14, 230, 86);
+}

@@ -1,0 +1,87 @@
+@media (max-width: 700px) {
+    /* Redefine o tamanho da fonte para 12px */
+    body {
+        font-size: 12px;
+    }
+
+    /* Refaz a estrutura da tag após o main para coluna */
+    .card-main {
+        flex-direction: column; /* Coloca as divs em coluna */
+        /* justify-items: center; */
+           padding: 30px 0;
+    }
+
+    /* Redefine o tamanho da largura do card pokemon para 300px */
+    .card-pokemon {
+        max-width: 300px;
+    }
+
+    /* Redefine os tamanho dos Títulos e subtítulo card-title */
+    .name, .card-number {
+        background-color: azure;
+        margin-bottom: 10px;
+        border-radius: 5px;
+        padding: 2px 8px;
+    }
+
+    /* Redefine o tamanho da imagem e centraliza-a */
+    .image-card {
+        width: 200px;
+        height: 200px;
+        margin-left: 40px; /* Dá uma margem de 15px do lado esquerdo */
+    }
+
+    /*  Redefinindo as li*/
+    .status li, .skills li {
+        border-bottom: 1px solid #c3c4c5;
+        /* color:darkgrey ; */
+    }
+
+    /* Redefine a lista de informações */
+    .status h2, .skills h2 {
+        font-size: 16px;
+        margin-top: 30px;
+    }
+
+    /* Coloca margem na parte nas laterias da lista */
+    .status li, .skills li {
+        margin: 0 30px;
+    }
+
+    /* Redefine as configurações da lista */
+    .bottom-card {
+        margin-top: -40px;
+        padding: 0 0 20px;
+        /* padding: 40px 20px 30px; */
+        justify-content: space-between;
+    }
+
+    /* Redefine o tamanho da div que contém a lista de cabeças nos pokemons para 300px de largura */
+    .heads-cards {
+        max-width: 300px;
+    }
+
+    .list {
+        /* background-color: rebeccapurple; */
+        display: flex;
+        gap: 8px;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .itemList {
+        width: 140px;
+        background-color: rgb(110, 116, 110);
+        border-radius: 10px;
+    }
+    
+    .itemList:hover {
+        transform: scale(1.1);
+        background-color: rgb(255, 0, 234);
+    }
+    
+    .list .active {
+        background-color: rgb(14, 230, 86);
+    }
+
+}

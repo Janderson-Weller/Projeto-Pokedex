@@ -1,0 +1,115 @@
+/* Retirando todos as formatações padrão da página */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; /* Faz o padding ficar dentro do valor estipulado do objeto e não aumenta esse valor*/
+    list-style: none;
+}
+
+main {
+    min-height: 100vh; /* Faz a tela ficar 100% ocupando a tela do usuário, nesse caso é a altura mínima*/
+    display: flex; /* deixa o main mais flexível para alterar as posições, alinhando os itens ao lado*/
+    align-items: center; /* Alinha os itens ao centro verticalmente*/
+    justify-content: center; /* Alinha os itens ao centro horizontalmente*/
+}
+
+.card-main {
+    display: flex;
+    gap: 30px; /* Dá um espaço de 30px entre as 2 divs filhas (cards-pokemnos e heads-cards) */;
+    padding: 30px 0 ;
+}
+
+.card-pokemon {
+    display: none; /*Escodendo todos os cards*/
+    border-radius: 10px;
+}
+
+/* Mostrando o primeiro card     */
+.card-pokemon.open {
+    display: block;
+}
+
+.top-card {
+    /* display: flex; */
+    padding: 30px 40px 0; 
+}
+
+.name, .card-number {
+    background-color: azure;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding: 2px 20px;
+}
+
+
+.type {
+    background-color: azure;
+    border-radius: 5px;
+    padding: 2px 20px;
+}
+ 
+.card-title {
+    /* color: white; */
+    display: flex;
+    justify-content: space-between; /* Alinha à direita, substituindo o float*/
+    align-items: center;
+}
+
+.image-card {
+    width: 350px;
+    height: 350px;
+}
+
+.image-card img {
+    max-width: 100%; /*Ocupando a div de imagem em 100%*/
+}
+
+.type-electric {
+    background-color: #FCC719;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.type-fire {
+    background-color: #ed8a88;
+}
+
+.type-water {
+    background-color: rgb(31, 201, 201);
+}
+
+.type-gram {
+    background-color: rgb(18, 150, 128);
+}
+
+.type-darkness {
+    background-color: rgb(70, 71, 69);
+}
+
+.type-dragon {
+    background-color: antiquewhite;
+}
+
+.status li, .skills li {
+    border-bottom: 1px solid #c3c4c5;
+    /* color:darkgrey ; */
+    padding-top: 10px;
+}
+
+/* .bottom-title {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #c3c4c5;
+} */
+
+
+.bottom-card {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -70px;
+    /* gap: 50px; */
+    padding: 80px 30px 40px;
+    background-color: #b37272;  
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
