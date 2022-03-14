@@ -4,6 +4,7 @@
     max-width: 200px; /* Tamanho máximo da div onde a lista de navegação está*/
 }
 
+/* Personalização do h5 no escopo da lista que contém as cabeças dos personagens */
 .heads-cards h5 {
     margin-bottom: 20px;
     text-align: center;
