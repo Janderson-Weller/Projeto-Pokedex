@@ -1,5 +1,5 @@
 @media (max-width: 700px) {
-    
+
     /* Redefine o tamanho da fonte para 12px */
     body {
         font-size: 12px;
@@ -51,7 +51,7 @@
     /* Redefine as configurações da lista */
     .bottom-card {
         margin-top: -30px;
-        padding: 0 0 20px;
+        padding: 0 0 10px;
         /* padding: 40px 20px 30px; */
         justify-content: space-between;
     }
@@ -59,11 +59,12 @@
     /* Redefine o tamanho da div que contém a lista de cabeças nos pokemons para 300px de largura */
     .heads-cards {
         max-width: 300px;
+        margin-top: -20px;
     }
 
     /* Redefine a div ul que tem como nome list */
     .list {
-        margin-top: -20px;
+        margin-top: -10px;
         display: flex;
         gap: 8px;
         flex-wrap: wrap;

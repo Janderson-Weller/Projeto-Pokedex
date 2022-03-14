@@ -4,6 +4,11 @@
     max-width: 200px; /* Tamanho máximo da div onde a lista de navegação está*/
 }
 
+.heads-cards h5 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
 .itemList { 
     display: flex;
     align-items: center;
